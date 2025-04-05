@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Hotels>
 	<Hotel Rating="4.5">
 		<Name>Hilton Cleveland</Name>
@@ -55,6 +55,62 @@
 			<City>Tempe</City>
 			<State>AZ</State>
 			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.6">
+		<Name>The Plaza Hotel New York</Name>
+		<Phone>212-759-3000</Phone>
+		<Address NearstAirport="JFK">
+			<Number>768</Number>
+			<Street>5th Avenue</Street>
+			<City>New York</City>
+			<State>NY</State>
+			<Zip>10019</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Hotel del Coronado</Name>
+		<Phone>619-435-6611</Phone>
+		<Phone>800-468-3533</Phone>
+		<Address NearstAirport="San Diego International">
+			<Number>1500</Number>
+			<Street>Orange Ave</Street>
+			<City>Coronado</City>
+			<State>CA</State>
+			<Zip>92118</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.2">
+		<Name>Waldorf Astoria Beverly Hills</Name>
+		<Phone>310-860-6666</Phone>
+		<Address NearstAirport="LAX">
+			<Number>9850</Number>
+			<Street>Wilshire Blvd</Street>
+			<City>Beverly Hills</City>
+			<State>CA</State>
+			<Zip>90210</Zip>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Four Seasons Chicago</Name>
+		<Phone>312-280-8800</Phone>
+		<Address NearstAirport="O'Hare">
+			<Number>120</Number>
+			<Street>E Delaware Pl</Street>
+			<City>Chicago</City>
+			<State>IL</State>
+			<Zip>60611</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>The Venetian Resort Las Vegas</Name>
+		<Phone>866-659-9643</Phone>
+		<Address>
+			<Number>3355</Number>
+			<Street>S Las Vegas Blvd</Street>
+			<City>Las Vegas</City>
+			<State>NV</State>
+			<Zip>89109</Zip>
 		</Address>
 	</Hotel>
 </Hotels>
