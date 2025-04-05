@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+	<!-- ❌ Error #1: Wrong root tag -->
+	<Hotel Rating="4.5">
+		<Name>Marriott Downtown</Name>
+		<!-- ❌ Error #3: Missing <Phone> element -->
+		<Address NearestAirport="Sky Harbor">
+			<Number>340</Number>
+			<Street>N 3rd Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85003</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<!-- ❌ Error #2: Missing Rating attribute -->
+		<Name>Holiday Inn Express</Name>
+		<Phone>602-257-4122</Phone>
+		<Address>
+			<!-- ❌ Error #4: Address will close early, but we'll simulate a structure issue -->
+			<Number>620</Number>
+			<Street>W Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85003</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="4.1">
+		<Name>Fairfield Inn</Name>
+		<Name>Duplicate Name</Name>
+		<!-- ❌ Error #5: Duplicate <Name> -->
+		<Phone>480-668-8000</Phone>
+		<Address>
+			<Number>1405</Number>
+			<Street>S Westwood</Street>
+			<City>Mesa</City>
+			<State>AZ</State>
+			<Zip>85210</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
