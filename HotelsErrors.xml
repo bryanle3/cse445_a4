@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotel>
+	<Hotel Rating="4.5">
+		<Name>Marriott Downtown</Name>
+		<Address NearestAirport="Sky Harbor">
+			<Number>340</Number>
+			<Street>N 3rd Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85003</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel>
+		<Name>Holiday Inn Express</Name>
+		<Phone>602-257-4122</Phone>
+		<Address>
+			<Number>620</Number>
+			<Street>W Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>GA</State>
+			<Zip>85003</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel Rating="3.9">
+		<Name>Fairfield Inn</Name>
+		<Name>Error Name</Name>
+		<Phone>480-668-8222</Phone>
+		<Address>
+			<Number>1405</Number>
+			<Street>S Westwood</Street>
+			<City>Mesa</City>
+			<State>CA</State>
+			<Zip>85232</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
